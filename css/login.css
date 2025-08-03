@@ -1,0 +1,87 @@
+body {
+  background: #f9f5f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+#heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #6b4c3b;
+}
+
+.field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  fill: #aaa;
+}
+
+.input-field {
+  width: 83%;
+  padding: 10px 10px 10px 38px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1,
+.button2 {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.button1 {
+  background-color: #6b4c3b;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #8c5e46;
+}
+
+.button2 {
+  background-color: #ccc;
+  color: #333;
+}
+
+.button2:hover {
+  background-color: #bbb;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
