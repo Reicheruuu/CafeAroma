@@ -19,7 +19,7 @@
           </li>
         <!-- Users -->
           <li class="nav-item">
-            <a href="products.php" class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'users.php' ? 'active' : '' ?>">
+            <a href="users.php" class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'users.php' ? 'active' : '' ?>">
               <i class="nav-icon fas fa-users"></i>
               <p>Users</p>
             </a>
